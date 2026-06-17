@@ -154,10 +154,9 @@ function Index() {
       <section className="py-24 px-6">
         <div className="max-w-screen-xl mx-auto">
           <div className="bg-white ring-1 ring-black/5 rounded-2xl p-12 lg:p-20 text-center">
-            <blockquote className="font-serif text-2xl md:text-3xl text-zinc-900 leading-snug mb-8 text-balance max-w-[40ch] mx-auto">
+            <blockquote className="font-serif text-2xl md:text-3xl text-zinc-900 leading-snug text-balance max-w-[40ch] mx-auto">
               ”Børn gør det bedste, de kan. Når de ikke trives, er det vores opgave som voksne at skabe forandringen.”
             </blockquote>
-          </div>
           </div>
         </div>
       </section>
