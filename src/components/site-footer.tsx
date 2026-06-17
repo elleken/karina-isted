@@ -18,14 +18,12 @@ export function SiteFooter() {
               >
                 Kontakt mig
               </Link>
-              <a
-                href="https://www.terapeutbooking.dk/"
-                target="_blank"
-                rel="noreferrer noopener"
+              <Link
+                to="/kontakt"
                 className="inline-flex items-center px-4 py-2 text-sm font-medium border border-zinc-200 rounded-md hover:bg-zinc-50 transition-colors"
               >
                 Book online
-              </a>
+              </Link>
             </div>
           </div>
           <div className="grid sm:grid-cols-2 gap-12">
