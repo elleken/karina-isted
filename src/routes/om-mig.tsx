@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import portrait from "@/assets/karina-portrait.jpg.asset.json";
 
 export const Route = createFileRoute("/om-mig")({
   head: () => ({
@@ -32,6 +33,14 @@ function AboutPage() {
         <h1 className="font-serif text-4xl md:text-5xl text-zinc-900 leading-tight mb-10 text-balance">
           Klinisk psykolog med rødder i pædagogikken
         </h1>
+        <div className="mb-12 overflow-hidden rounded-2xl ring-1 ring-black/5 bg-sand-muted">
+          <img
+            src={portrait.url}
+            alt="Portræt af Karina Isted, autoriseret klinisk psykolog"
+            className="w-full h-auto object-cover"
+            loading="eager"
+          />
+        </div>
         <div className="prose-content space-y-6 text-zinc-700 text-lg leading-relaxed">
           <p>
             Jeg er uddannet psykolog fra Syddansk Universitet i 2021, autoriseret af

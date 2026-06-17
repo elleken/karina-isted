@@ -1,9 +1,9 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
-import heroClinic from "@/assets/hero-clinic.jpg";
-import heroWindow from "@/assets/hero-window.jpg";
-import heroBeach from "@/assets/hero-beach.jpg";
+import clinicSkylight from "@/assets/clinic-skylight.jpg.asset.json";
+import clinicChairs from "@/assets/clinic-chairs.jpg.asset.json";
+import clinicTable from "@/assets/clinic-table.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -27,9 +27,9 @@ export const Route = createFileRoute("/")({
 });
 
 const heroImages = [
-  { src: heroClinic, alt: "Lyst rum med blødt dagslys og hyggelig læsekrog" },
-  { src: heroWindow, alt: "Stille hjørne med lænestol og varmt lys" },
-  { src: heroBeach, alt: "Solrød Strand i roligt morgenlys" },
+  { src: clinicSkylight.url, alt: "Lyst samtalerum med ovenlysvinduer og rattanstole i Solrød Strand" },
+  { src: clinicChairs.url, alt: "Hyggelig siddegruppe med rattanstole og blomster" },
+  { src: clinicTable.url, alt: "Lyst arbejdsbord i klinikken med plads til samtaler og leg" },
 ];
 
 const issues = [
