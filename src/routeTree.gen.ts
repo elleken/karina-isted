@@ -13,6 +13,7 @@ import { Route as ProblemstillingerRouteImport } from './routes/problemstillinge
 import { Route as PriserOgVilkaarRouteImport } from './routes/priser-og-vilkaar'
 import { Route as OmMigRouteImport } from './routes/om-mig'
 import { Route as MinTilgangRouteImport } from './routes/min-tilgang'
+import { Route as KontaktRouteImport } from './routes/kontakt'
 import { Route as IndexRouteImport } from './routes/index'
 
 const ProblemstillingerRoute = ProblemstillingerRouteImport.update({
@@ -35,6 +36,11 @@ const MinTilgangRoute = MinTilgangRouteImport.update({
   path: '/min-tilgang',
   getParentRoute: () => rootRouteImport,
 } as any)
+const KontaktRoute = KontaktRouteImport.update({
+  id: '/kontakt',
+  path: '/kontakt',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const IndexRoute = IndexRouteImport.update({
   id: '/',
   path: '/',
@@ -43,6 +49,7 @@ const IndexRoute = IndexRouteImport.update({
 
 export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
+  '/kontakt': typeof KontaktRoute
   '/min-tilgang': typeof MinTilgangRoute
   '/om-mig': typeof OmMigRoute
   '/priser-og-vilkaar': typeof PriserOgVilkaarRoute
@@ -50,6 +57,7 @@ export interface FileRoutesByFullPath {
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
+  '/kontakt': typeof KontaktRoute
   '/min-tilgang': typeof MinTilgangRoute
   '/om-mig': typeof OmMigRoute
   '/priser-og-vilkaar': typeof PriserOgVilkaarRoute
@@ -58,6 +66,7 @@ export interface FileRoutesByTo {
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
+  '/kontakt': typeof KontaktRoute
   '/min-tilgang': typeof MinTilgangRoute
   '/om-mig': typeof OmMigRoute
   '/priser-og-vilkaar': typeof PriserOgVilkaarRoute
@@ -67,6 +76,7 @@ export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
   fullPaths:
     | '/'
+    | '/kontakt'
     | '/min-tilgang'
     | '/om-mig'
     | '/priser-og-vilkaar'
@@ -74,6 +84,7 @@ export interface FileRouteTypes {
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/'
+    | '/kontakt'
     | '/min-tilgang'
     | '/om-mig'
     | '/priser-og-vilkaar'
@@ -81,6 +92,7 @@ export interface FileRouteTypes {
   id:
     | '__root__'
     | '/'
+    | '/kontakt'
     | '/min-tilgang'
     | '/om-mig'
     | '/priser-og-vilkaar'
@@ -89,6 +101,7 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
+  KontaktRoute: typeof KontaktRoute
   MinTilgangRoute: typeof MinTilgangRoute
   OmMigRoute: typeof OmMigRoute
   PriserOgVilkaarRoute: typeof PriserOgVilkaarRoute
@@ -125,6 +138,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof MinTilgangRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/kontakt': {
+      id: '/kontakt'
+      path: '/kontakt'
+      fullPath: '/kontakt'
+      preLoaderRoute: typeof KontaktRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/': {
       id: '/'
       path: '/'
@@ -137,6 +157,7 @@ declare module '@tanstack/react-router' {
 
 const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
+  KontaktRoute: KontaktRoute,
   MinTilgangRoute: MinTilgangRoute,
   OmMigRoute: OmMigRoute,
   PriserOgVilkaarRoute: PriserOgVilkaarRoute,
