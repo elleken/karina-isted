@@ -1,6 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
-import logo from "@/assets/logo.png.asset.json";
+import logo from "@/assets/logo.jpg.asset.json";
 
 const navItems = [
   { to: "/", label: "Hjem" },
