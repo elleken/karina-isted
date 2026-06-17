@@ -157,10 +157,7 @@ function Index() {
             <blockquote className="font-serif text-2xl md:text-3xl text-zinc-900 leading-snug mb-8 text-balance max-w-[40ch] mx-auto">
               ”Børn gør det bedste, de kan. Når de ikke trives, er det vores opgave som voksne at skabe forandringen.”
             </blockquote>
-            <div className="w-12 h-px bg-sage/30 mx-auto mb-6" />
-            <p className="text-sm font-medium uppercase tracking-widest text-zinc-400">
-              Min tilgang som psykolog
-            </p>
+          </div>
           </div>
         </div>
       </section>
