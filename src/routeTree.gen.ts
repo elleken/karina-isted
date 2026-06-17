@@ -9,10 +9,16 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
+import { Route as ProblemstillingerRouteImport } from './routes/problemstillinger'
 import { Route as OmMigRouteImport } from './routes/om-mig'
 import { Route as MinTilgangRouteImport } from './routes/min-tilgang'
 import { Route as IndexRouteImport } from './routes/index'
 
+const ProblemstillingerRoute = ProblemstillingerRouteImport.update({
+  id: '/problemstillinger',
+  path: '/problemstillinger',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const OmMigRoute = OmMigRouteImport.update({
   id: '/om-mig',
   path: '/om-mig',
@@ -33,34 +39,45 @@ export interface FileRoutesByFullPath {
   '/': typeof IndexRoute
   '/min-tilgang': typeof MinTilgangRoute
   '/om-mig': typeof OmMigRoute
+  '/problemstillinger': typeof ProblemstillingerRoute
 }
 export interface FileRoutesByTo {
   '/': typeof IndexRoute
   '/min-tilgang': typeof MinTilgangRoute
   '/om-mig': typeof OmMigRoute
+  '/problemstillinger': typeof ProblemstillingerRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
   '/': typeof IndexRoute
   '/min-tilgang': typeof MinTilgangRoute
   '/om-mig': typeof OmMigRoute
+  '/problemstillinger': typeof ProblemstillingerRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/min-tilgang' | '/om-mig'
+  fullPaths: '/' | '/min-tilgang' | '/om-mig' | '/problemstillinger'
   fileRoutesByTo: FileRoutesByTo
-  to: '/' | '/min-tilgang' | '/om-mig'
-  id: '__root__' | '/' | '/min-tilgang' | '/om-mig'
+  to: '/' | '/min-tilgang' | '/om-mig' | '/problemstillinger'
+  id: '__root__' | '/' | '/min-tilgang' | '/om-mig' | '/problemstillinger'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   IndexRoute: typeof IndexRoute
   MinTilgangRoute: typeof MinTilgangRoute
   OmMigRoute: typeof OmMigRoute
+  ProblemstillingerRoute: typeof ProblemstillingerRoute
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
+    '/problemstillinger': {
+      id: '/problemstillinger'
+      path: '/problemstillinger'
+      fullPath: '/problemstillinger'
+      preLoaderRoute: typeof ProblemstillingerRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/om-mig': {
       id: '/om-mig'
       path: '/om-mig'
@@ -89,6 +106,7 @@ const rootRouteChildren: RootRouteChildren = {
   IndexRoute: IndexRoute,
   MinTilgangRoute: MinTilgangRoute,
   OmMigRoute: OmMigRoute,
+  ProblemstillingerRoute: ProblemstillingerRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)
