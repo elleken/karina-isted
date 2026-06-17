@@ -64,14 +64,12 @@ function Index() {
                 Jeg tilbyder samtaler til børn, unge og forældre i rolige, hyggelige rammer. Sammen arbejder vi med at forstå de følelser og behov, der gemmer sig bag barnets adfærd.
               </p>
               <div className="flex flex-wrap gap-4">
-                <a
-                  href="https://www.terapeutbooking.dk/"
-                  target="_blank"
-                  rel="noreferrer noopener"
+                <Link
+                  to="/kontakt"
                   className="bg-sage text-white px-5 py-3 rounded-md text-sm font-medium hover:bg-sage/90 transition-colors inline-flex items-center gap-2"
                 >
                   Book online
-                </a>
+                </Link>
                 <Link
                   to="/min-tilgang"
                   className="px-5 py-3 text-zinc-600 text-sm font-medium border border-zinc-200 rounded-md hover:bg-zinc-50 transition-colors"
