@@ -4,6 +4,19 @@
 
 @custom-variant dark (&:is(.dark *));
 
+@theme {
+  --font-serif: 'Fraunces', ui-serif, Georgia, serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  --color-sand: #fdfcfb;
+  --color-sand-muted: #f4f1ee;
+  --color-sand-deep: #ebe6df;
+  --color-sage: #56695b;
+  --color-sage-soft: #7d8f80;
+  --color-clay: #a37b66;
+  --color-ink: #1f1f1d;
+  --color-ink-soft: #4a4a48;
+}
+
 /*
  * Design system definition.
  *
