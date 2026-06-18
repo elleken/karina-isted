@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/priser-og-vilkaar")({
   head: () => ({
     meta: [
-      { title: "Priser og vilkår — Karina Isted" },
+      { title: "Priser og vilkår. Karina Isted" },
       {
         name: "description",
         content:
           "Priser, afbudsregler, tilskud via Sygeforsikringen danmark og tavshedspligt.",
       },
-      { property: "og:title", content: "Priser og vilkår — Karina Isted" },
+      { property: "og:title", content: "Priser og vilkår. Karina Isted" },
       {
         property: "og:description",
         content: "Priser, afbud, tilskud og tavshedspligt.",
@@ -73,7 +73,7 @@ function PricingPage() {
               udbetalt af „danmark”.
             </p>
             <p>
-              Har du en sundhedsforsikring — privat eller via dit arbejde — vil
+              Har du en sundhedsforsikring, privat eller via dit arbejde, vil
               du ofte kunne få tilskud til eller fuld dækning af
               psykologsamtaler. Du skal kontakte dit forsikringsselskab for at
               høre deres retningslinjer og afregningsprocedure, og sende dine

@@ -3,13 +3,13 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/problemstillinger")({
   head: () => ({
     meta: [
-      { title: "Problemstillinger — Karina Isted" },
+      { title: "Problemstillinger. Karina Isted" },
       {
         name: "description",
         content:
           "Skolevægring, angst, ADHD og autisme, højt konfliktniveau, lavt selvværd og forældrerådgivning.",
       },
-      { property: "og:title", content: "Problemstillinger — Karina Isted" },
+      { property: "og:title", content: "Problemstillinger. Karina Isted" },
       {
         property: "og:description",
         content: "Eksempler på problemstillinger, jeg kan hjælpe børn, unge og familier med.",
@@ -28,7 +28,7 @@ const topics = [
   },
   {
     title: "Angst og bekymringer",
-    body: "Hvilken funktion har angsten? Hvad prøver den at fortælle os? Vi finder årsagen til barnets reaktioner og skaber forståelse — og derfra tilpasses tilgangen fra de voksne omkring barnet, krav og forventninger.",
+    body: "Hvilken funktion har angsten? Hvad prøver den at fortælle os? Vi finder årsagen til barnets reaktioner og skaber forståelse, og derfra tilpasses tilgangen fra de voksne omkring barnet, krav og forventninger.",
   },
   {
     title: "ADHD og autisme",
@@ -40,7 +40,7 @@ const topics = [
   },
   {
     title: "Lavt selvværd",
-    body: "Når barnet taler grimt om sig selv, trækker sig fra fællesskaber eller virker tynget af følelsen af ikke at slå til. Vi arbejder med at styrke barnets oplevelse af at være værdifuld og afholdt — også når noget er svært.",
+    body: "Når barnet taler grimt om sig selv, trækker sig fra fællesskaber eller virker tynget af følelsen af ikke at slå til. Vi arbejder med at styrke barnets oplevelse af at være værdifuld og afholdt, også når noget er svært.",
   },
   {
     title: "Forældrerådgivning",
@@ -61,7 +61,7 @@ function IssuesPage() {
         <p className="text-lg text-zinc-600 leading-relaxed text-pretty">
           Børn og unge kan på mange måder vise omverdenen, at de ikke trives og har
           behov for støtte. Nedenfor er eksempler på problemstillinger, jeg arbejder
-          med — listen er ikke udtømmende, så tøv ikke med at skrive, hvis I er i
+          med. Listen er ikke udtømmende, så tøv ikke med at skrive, hvis I er i
           tvivl.
         </p>
       </div>
