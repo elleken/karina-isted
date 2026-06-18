@@ -32,7 +32,7 @@ export function SiteFooter() {
                 Find mig
               </h5>
               <p className="text-sm text-zinc-600 leading-loose">
-                Solrød Strand
+                Solrød Center 70, 1. Sal.
                 <br />
                 2680 Solrød Strand
               </p>
