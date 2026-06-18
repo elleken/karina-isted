@@ -33,6 +33,7 @@ const heroImages = [
   { src: clinicSkylight.url, alt: "Lyst samtalerum med ovenlysvinduer og rattanstole i Solrød Strand" },
   { src: clinicChairs.url, alt: "Hyggelig siddegruppe med rattanstole og blomster" },
   { src: clinicTable.url, alt: "Lyst arbejdsbord i klinikken med plads til samtaler og leg" },
+  { src: clinicToys.url, alt: "Hyggeligt legeværelse med bamser, bøger og legetøj i klinikken" },
 ];
 
 const issues = [
