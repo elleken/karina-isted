@@ -63,15 +63,16 @@ function AboutPage() {
             og deltager løbende i relevante kurser for at dygtiggøre mig.
           </p>
           <p>
-            Privat bor jeg sammen med min mand og to børn. Jeg holder særligt af
-            at gå ture ved stranden og bruge tid i haven og køkkenet.
+            Privat bor jeg sammen med min mand og to børn født i henholdsvis 2018
+            og 2021. Jeg holder særligt af at gå ture ved stranden og bruge tid i
+            haven og køkkenet.
           </p>
         </div>
 
         <div className="mt-16 grid sm:grid-cols-3 gap-6">
           {[
             { k: "Autoriseret", v: "Styrelsen for Patientsikkerhed" },
-            { k: "Uddannet", v: "Cand.psych., SDU" },
+            { k: "Uddannet", v: "Cand.psych., SDU 2021" },
             { k: "Specialisering", v: "Legeterapi" },
           ].map((c) => (
             <div key={c.k} className="bg-sand-muted rounded-xl p-6">
