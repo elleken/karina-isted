@@ -3,7 +3,6 @@ import { Link } from "@tanstack/react-router";
 import { useEffect, useState } from "react";
 import clinicSkylight from "@/assets/clinic-skylight.jpg.asset.json";
 import clinicChairs from "@/assets/clinic-chairs.jpg.asset.json";
-import clinicTable from "@/assets/clinic-table.jpg.asset.json";
 import karinaPortrait from "@/assets/karina-portrait.jpg.asset.json";
 import clinicToys from "@/assets/clinic-toys.png.asset.json";
 
@@ -34,7 +33,6 @@ const heroImages = [
   { src: clinicSkylight.url, alt: "Lyst samtalerum med ovenlysvinduer og rattanstole i Solrød Strand" },
   { src: clinicChairs.url, alt: "Hyggelig siddegruppe med rattanstole og blomster" },
   { src: clinicToys.url, alt: "Hyggeligt legeværelse med bamser, bøger og legetøj i klinikken" },
-  
 ];
 
 const issues = [
