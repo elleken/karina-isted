@@ -3,16 +3,16 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/kontakt")({
   head: () => ({
     meta: [
-      { title: "Kontakt — Karina Isted" },
+      { title: "Kontakt. Karina Isted" },
       {
         name: "description",
         content:
           "Online booking, telefon og mail. Praksis i Solrød Strand.",
       },
-      { property: "og:title", content: "Kontakt — Karina Isted" },
+      { property: "og:title", content: "Kontakt. Karina Isted" },
       {
         property: "og:description",
-        content: "Sådan kontakter du mig — online booking, telefon og mail.",
+        content: "Sådan kontakter du mig. Online booking, telefon og mail.",
       },
       { property: "og:url", content: "/kontakt" },
     ],
