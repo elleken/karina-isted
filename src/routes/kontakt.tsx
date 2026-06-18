@@ -89,7 +89,7 @@ function ContactPage() {
               Adresse
             </p>
             <p className="text-zinc-700 leading-relaxed">
-              Solrød Strand
+              Solrød Center 70, 1. Sal.
               <br />
               2680 Solrød Strand
             </p>
