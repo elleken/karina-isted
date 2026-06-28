@@ -52,22 +52,13 @@ function ApproachPage() {
         </h1>
         <div className="space-y-6 text-zinc-700 text-lg leading-relaxed">
           <p>
-            Jeg kombinerer pædagogisk viden og erfaring fra daginstitutioner og
-            skoler med psykologfagligt blik på børns udvikling og trivsel. I mit
-            arbejde er jeg særligt optaget af at forstå, hvad der ligger
-            bagvedliggende for barnets adfærd, hvilke følelser og behov forsøger
-            barnet at kommunikere?
+            I mit arbejde er jeg særligt optaget af at forstå, hvad der er bagvedliggende for barnets adfærd, hvilke følelser og behov forsøger barnet at kommunikere. Jeg arbejder ud fra en forståelse af, at det vi kommer fra og det vi har med os, er betydningsfuldt for vores aktuelle situation. Viden om erfaringer, relationer og opvækstvilkår er derfor vigtig for at forstå, hvorfor barnet reagerer, som det gør. Når der skabes forståelse, dannes der grundlag for at arbejde med, hvordan barnet kan mødes på nye måder og støttes i retning af trivsel og udvikling.
           </p>
           <p>
-            Når den forståelse er bygget op, danner den grundlag for at arbejde
-            med, hvordan barnet kan mødes på nye måder og støttes i retning af
-            trivsel og udvikling. Jeg arbejder både med barnets lidelse i terapien
-            og med omgivelserne omkring barnet.
+            Min tilgang er, at der kan arbejdes med barnets lidelse og mestring i terapien, samtidig med at tiltag i barnets omgivelser er afgørende for en positiv forandring. Jeg er således optaget af, hvordan der i barnets omgivelser skabes de bedste betingelser for, at barnet med sine forudsætninger kan trives og udvikles.
           </p>
           <p>
-            Jeg anvender forskellige teoretiske tilgange afhængigt af
-            problemstillingen og trækker særligt på viden fra tilknytningsteori,
-            psykodynamisk og systemisk tænkning.
+            Jeg anvender forskellige teoretiske tilgange afhængigt af problemstillingen, i mit arbejde med børn og unge trækker jeg særligt på den psykodynamiske terapi, tilknytningsteorien, systemisk tænkning samt elementer fra kognitiv terapi.
           </p>
         </div>
 
