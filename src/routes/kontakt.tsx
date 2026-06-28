@@ -62,7 +62,7 @@ function ContactPage() {
             <h2 className="font-serif text-2xl text-zinc-900 mb-3">Ring eller læg en besked</h2>
             <p className="text-zinc-600 leading-relaxed">
               Jeg kan være svær at fange på telefonen, da jeg ofte er i samtale.
-              Læg en besked, så kontakter jeg dig inden for 24 timer på hverdage.
+              Læg en besked, så kontakter jeg dig hurtigst muligt.
             </p>
           </div>
 
