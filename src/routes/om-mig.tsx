@@ -64,7 +64,7 @@ function AboutPage() {
           </p>
           <p>
             Privat bor jeg sammen med min mand og to børn født i henholdsvis 2018
-            og 2021. jeg holder særligt af at opholde mig i naturen, læse en god bog og bruge tid i haven og køkkenet.
+            og 2021. Jeg holder særligt af at opholde mig i naturen, læse en god bog og bruge tid i haven og køkkenet.
           </p>
         </div>
 
