@@ -28,7 +28,7 @@ const principles = [
   },
   {
     title: "Forældre er den vigtigste samarbejdspartner",
-    body: "I kender jeres barn bedst. Mange har prøvet meget selv, før de søger hjælp, det respekterer jeg, og vi bygger forløbet på jeres viden.",
+    body: "I kender jeres barn bedst. Jeres viden om barnet og deltagelse i forløbet er derfor afgørende for mulighed for forandring.",
   },
   {
     title: "Hele familien påvirkes",
