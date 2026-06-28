@@ -33,7 +33,7 @@ function AboutPage() {
         <h1 className="font-serif text-4xl md:text-5xl text-zinc-900 leading-tight mb-10 text-balance">
           Klinisk psykolog med rødder i pædagogikken
         </h1>
-        <div className="mb-12 max-w-md mx-auto overflow-hidden rounded-2xl ring-1 ring-black/5 bg-sand-muted">
+        <div className="mb-12 overflow-hidden rounded-2xl ring-1 ring-black/5 bg-sand-muted">
           <img
             src={portrait.url}
             alt="Portræt af Karina Isted, autoriseret klinisk psykolog"
