@@ -7,9 +7,26 @@
 import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
+  nitro: false,
+  // Allow setting a base path at build time for hosting on GitHub Pages under a
+  // project repo (e.g. BASE_PATH=/karina-isted/). Defaults to "/" for the
+  // Lovable dev preview and custom-domain deploys.
+  vite: {
+    base: process.env.BASE_PATH || "/",
+  },
   tanstackStart: {
-    // Redirect TanStack Start's bundled server entry to src/server.ts (our SSR error wrapper).
-    // nitro/vite builds from this
+    // SSR entry compiled at dist/server/server.js for the preview/prerender server.
     server: { entry: "server" },
+    // Build a pure SPA: prerender the shell HTML and let the client router
+    // take over for all routes. Required for static / GitHub Pages hosting.
+    spa: { enabled: true },
+    pages: [
+      { path: "/", prerender: { enabled: true } },
+      { path: "/om-mig", prerender: { enabled: true } },
+      { path: "/min-tilgang", prerender: { enabled: true } },
+      { path: "/problemstillinger", prerender: { enabled: true } },
+      { path: "/priser-og-vilkaar", prerender: { enabled: true } },
+      { path: "/kontakt", prerender: { enabled: true } },
+    ],
   },
 });
