@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>/</loc><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>/om-mig</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>/min-tilgang</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>/problemstillinger</loc><changefreq>yearly</changefreq><priority>0.8</priority></url>
+  <url><loc>/priser-og-vilkaar</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+  <url><loc>/kontakt</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
+</urlset>

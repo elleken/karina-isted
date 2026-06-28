@@ -36,11 +36,27 @@ jobs:
         run: bun run build
         env:
           NODE_ENV: production
+          # When hosting under https://<user>.github.io/<repo>/, set the base path.
+          # For a custom domain / username.github.io site, set BASE_PATH to "/" (or unset).
+          BASE_PATH: /karina-isted/
+
+      - name: Prepare static output for GitHub Pages
+        run: |
+          # Use the SPA shell as a fallback for unknown routes (client router takes over)
+          if [ -f dist/client/_shell.html ]; then
+            cp dist/client/_shell.html dist/client/404.html
+            # Ensure / has an index.html; the client router will render the home page on hydration
+            if [ ! -f dist/client/index.html ]; then
+              cp dist/client/_shell.html dist/client/index.html
+            fi
+          fi
+          # Disable Jekyll so files/folders starting with _ are not filtered out
+          touch dist/client/.nojekyll
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./dist/client
 
   deploy:
     environment:
