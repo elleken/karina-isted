@@ -52,7 +52,7 @@ function ApproachPage() {
         </h1>
         <div className="space-y-6 text-zinc-700 text-lg leading-relaxed">
           <p>
-            I mit arbejde er jeg særligt optaget af at forstå, hvad der er bagvedliggende for barnets adfærd, hvilke følelser og behov forsøger barnet at kommunikere. Jeg arbejder ud fra en forståelse af, at det vi kommer fra og det vi har med os, er betydningsfuldt for vores aktuelle situation. Viden om erfaringer, relationer og opvækstvilkår er derfor vigtig for at forstå, hvorfor barnet reagerer, som det gør. Når der skabes forståelse, dannes der grundlag for at arbejde med, hvordan barnet kan mødes på nye måder og støttes i retning af trivsel og udvikling.
+            I mit arbejde er jeg særligt optaget af at forstå, hvad der er bagvedliggende for barnets adfærd, samt hvilke følelser og behov barnet forsøger at kommunikere.
           </p>
           <p>
             Min tilgang er, at der kan arbejdes med barnets lidelse og mestring i terapien, samtidig med at tiltag i barnets omgivelser er afgørende for en positiv forandring. Jeg er således optaget af, hvordan der i barnets omgivelser skabes de bedste betingelser for, at barnet med sine forudsætninger kan trives og udvikles.
