@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import portrait from "@/assets/om-mig-portrait-v2.jpg.asset.json";
+import { assetUrl } from "@/lib/asset-url";
 
 export const Route = createFileRoute("/om-mig")({
   head: () => ({
@@ -35,7 +36,7 @@ function AboutPage() {
         </h1>
         <div className="mb-12 overflow-hidden rounded-2xl ring-1 ring-black/5 bg-sand-muted">
           <img
-            src={portrait.url}
+            src={assetUrl(portrait)}
             alt="Portræt af Karina Isted, autoriseret klinisk psykolog"
             className="w-full h-auto object-cover"
             loading="eager"
