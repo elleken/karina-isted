@@ -72,13 +72,13 @@ function AboutPage() {
           {[
             { k: "Autoriseret", v: "Styrelsen for Patientsikkerhed" },
             { k: "Uddannet", v: "Cand.psych., SDU 2021" },
-            { k: "Specialisering", v: "Legeterapi" },
+            { k: "Specialisering", v: ["Børn og unge", "Legeterapi"] },
           ].map((c) => (
             <div key={c.k} className="bg-sand-muted rounded-xl p-6">
               <p className="text-xs uppercase tracking-widest text-zinc-400 mb-2">
                 {c.k}
               </p>
-              <p className="text-sm font-medium text-zinc-800">{c.v}</p>
+              <p className="text-sm font-medium text-zinc-800 whitespace-pre-line">{Array.isArray(c.v) ? c.v.join("\n") : c.v}</p>
             </div>
           ))}
         </div>
