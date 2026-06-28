@@ -43,6 +43,8 @@ export function SiteFooter() {
               </h5>
               <p className="text-sm text-zinc-600 leading-loose">
                 karinaisted@proton.me
+                <br />
+                42 66 44 29
               </p>
             </div>
           </div>
