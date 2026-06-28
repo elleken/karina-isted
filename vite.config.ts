@@ -14,12 +14,12 @@ export default defineConfig({
     // take over for all routes. Required for GitHub Pages hosting.
     spa: { enabled: true },
     pages: [
-      "/",
-      "/om-mig",
-      "/min-tilgang",
-      "/problemstillinger",
-      "/priser-og-vilkaar",
-      "/kontakt",
+      { path: "/", prerender: { enabled: true } },
+      { path: "/om-mig", prerender: { enabled: true } },
+      { path: "/min-tilgang", prerender: { enabled: true } },
+      { path: "/problemstillinger", prerender: { enabled: true } },
+      { path: "/priser-og-vilkaar", prerender: { enabled: true } },
+      { path: "/kontakt", prerender: { enabled: true } },
     ],
   },
 });
