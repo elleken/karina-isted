@@ -78,9 +78,9 @@ function ContactPage() {
             </h2>
             <p className="text-zinc-600 leading-relaxed">
               Jeg anbefaler, at du ikke deler personfølsomme oplysninger i mailen,
-              da den ikke er krypteret. Når jeg svarer, sker det fra sikker og
-              krypteret mail, og herefter lever vores korrespondance op til
-              sikkerhedskravene jf. GDPR.
+              da din egen mailadresse ofte ikke vil være krypteret. Når jeg
+              svarer, sker det fra sikker og krypteret mail, og herefter lever
+              vores korrespondance op til sikkerhedskravene jf. GDPR.
             </p>
           </div>
 
