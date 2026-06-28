@@ -46,7 +46,9 @@ export function SiteFooter() {
                   karinaisted@proton.me
                 </a>
                 <br />
-                42 66 44 29
+                <a href="tel:42664429" className="hover:text-sage transition-colors">
+                  42 66 44 29
+                </a>
               </p>
             </div>
           </div>
