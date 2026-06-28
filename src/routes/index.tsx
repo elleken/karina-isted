@@ -5,6 +5,7 @@ import karinaClinicPortrait from "@/assets/karina-clinic-portrait.jpg.asset.json
 import clinicSkylight from "@/assets/clinic-skylight.jpg.asset.json";
 import clinicChairs from "@/assets/clinic-chairs.jpg.asset.json";
 import clinicToys from "@/assets/clinic-toys.png.asset.json";
+import { assetUrl } from "@/lib/asset-url";
 
 
 export const Route = createFileRoute("/")({
@@ -29,10 +30,10 @@ export const Route = createFileRoute("/")({
 });
 
 const heroImages = [
-  { src: karinaClinicPortrait.url, alt: "Karina Isted i samtalerummet" },
-  { src: clinicSkylight.url, alt: "Lyst samtalerum med ovenlysvinduer og rattanstole i Solrød Strand" },
-  { src: clinicChairs.url, alt: "Hyggelig siddegruppe med rattanstole og blomster" },
-  { src: clinicToys.url, alt: "Hyggeligt legeværelse med bamser, bøger og legetøj i klinikken" },
+  { src: assetUrl(karinaClinicPortrait), alt: "Karina Isted i samtalerummet" },
+  { src: assetUrl(clinicSkylight), alt: "Lyst samtalerum med ovenlysvinduer og rattanstole i Solrød Strand" },
+  { src: assetUrl(clinicChairs), alt: "Hyggelig siddegruppe med rattanstole og blomster" },
+  { src: assetUrl(clinicToys), alt: "Hyggeligt legeværelse med bamser, bøger og legetøj i klinikken" },
 ];
 
 const issues = [

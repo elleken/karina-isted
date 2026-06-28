@@ -1,6 +1,7 @@
 import { Link } from "@tanstack/react-router";
 import { useState } from "react";
 import logo from "@/assets/logo-karina.png.asset.json";
+import { assetUrl } from "@/lib/asset-url";
 
 const navItems = [
   { to: "/", label: "Hjem" },
@@ -17,7 +18,7 @@ export function SiteHeader() {
     <nav className="sticky top-0 z-50 bg-sand/85 backdrop-blur-md border-b border-zinc-950/5">
       <div className="max-w-screen-xl mx-auto px-6 h-20 flex items-center justify-between">
         <Link to="/" className="flex items-center" aria-label="Karina Isted – aut. psykolog">
-          <img src={logo.url} alt="Karina Isted, aut. psykolog" className="h-12 w-auto mix-blend-multiply" />
+          <img src={assetUrl(logo)} alt="Karina Isted, aut. psykolog" className="h-12 w-auto mix-blend-multiply" />
         </Link>
         <div className="hidden md:flex items-center gap-8">
           {navItems.map((item) => (
