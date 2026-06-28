@@ -76,13 +76,16 @@ function ApproachPage() {
 
         <div className="mt-16 border-t border-zinc-950/5 pt-12">
           <h2 className="font-serif text-2xl text-zinc-900 mb-6">
-            Sådan starter et forløb
+            Forløbet
           </h2>
-          <p className="text-zinc-700 text-lg leading-relaxed">
-            Et forløb starter med en samtale med forældrene. Derfra vurderer vi
-            sammen, hvordan barnet skal inddrages, og i hvilket omfang det er
-            forældre eller barnet, der skal til samtale.
-          </p>
+          <div className="space-y-6 text-zinc-700 text-lg leading-relaxed">
+            <p>
+              Et samtaleforløb vil starte med en indledende samtale med jer forældre, hvor jeg er nysgerrig på jeres opfattelse af barnets generelle udvikling, udfordringer samt familiens livsomstændigheder. I et forløb vil jeg veksle mellem at have samtale med barnet, jer forældre og jer alle samlet, afhængigt at hvad der er meningsfuldt for problemstillingen og barnets behov.
+            </p>
+            <p>
+              Tryghed for barnet i samtalen er afgørende, hvorfor forældre kan deltage, indtil barnet føler sig tryg ved at være alene med mig. Jeg arbejder ud fra den tilgang, at ændringer og udvikling hos barnet i høj grad er afhængig af omgivelsernes støtte og forståelse. Et primært fokus i mit arbejde er derfor at støtte jer forældre i nye indsigter og forståelser af jeres barn, således kontakten og støtten til jeres barn kan styrkes.
+            </p>
+          </div>
         </div>
       </div>
     </article>
