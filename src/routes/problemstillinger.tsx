@@ -28,7 +28,7 @@ const topics = [
   },
   {
     title: "Angst og bekymringer",
-    body: "Hvilken funktion har angsten? Hvad prøver den at fortælle os? Vi finder årsagen til barnets reaktioner og skaber forståelse, og derfra tilpasses tilgangen fra de voksne omkring barnet, krav og forventninger.",
+    body: "Angst er en naturlig følelse hos alle mennesker, der gør os opmærksom på, at der kan være fare på færde. Følelsen af angst kan blive så omfattende, at det hæmmer barnets trivsel og sociale udvikling, hvor barnet undgår bestemte situationer. I samtalerne vil jeg være undersøgende på, hvilken funktion angsten har for barnet, samt støtte barnet i at udtrykke og forstå sine følelser. Der vil typisk i forløbet indgå elementer fra kognitiv adfærdsterapi, ligesom I som forældre er en vigtig del af behandlingen.",
   },
   {
     title: "ADHD og autisme",
