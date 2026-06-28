@@ -24,7 +24,7 @@ export const Route = createFileRoute("/problemstillinger")({
 const topics = [
   {
     title: "Skolevægring",
-    body: "Skolevægring opstår ofte i mismatchet mellem barnets behov og det, skolen kan rumme. Når barnet presses afsted, kan reaktionerne blive store og voldsomme. Vi arbejder med at forstå, hvad der går forud, og hvordan presset kan tages af, så barnet kan finde tilbage.",
+    body: "Skoleværing eller ufrivilligt skolefravær er begreber der dækker over et ufrivilligt, vedvarende fravær fra skole. Barnet med skoleværing oplever så stort et ubehag ved at være i skole, at det har behov for at beskytte sig ved at blive hjemme. Når barnet skal hjælpes tilbage i skole er det centralt at få belyst, hvilke faktorer der ligger bag udviklingen af skoleværing, samt hvilke faktorer der vedligeholder skolefraværet. Jeg vil i samarbejde med jer forældre være undersøgende på årsagerne bag skoleværingen, og med baggrund heri lægge en plan for, hvordan barnet kan komme i trivsel og tilbage i skole.",
   },
   {
     title: "Angst og bekymringer",
