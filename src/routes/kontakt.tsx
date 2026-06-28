@@ -59,7 +59,11 @@ function ContactPage() {
             <p className="text-xs uppercase tracking-widest text-zinc-400 mb-3">
               Telefon
             </p>
-            <h2 className="font-serif text-2xl text-zinc-900 mb-3">Ring eller læg en besked</h2>
+            <h2 className="font-serif text-2xl text-zinc-900 mb-3">
+              <a href="tel:42664429" className="hover:text-sage transition-colors">
+                42 66 44 29
+              </a>
+            </h2>
             <p className="text-zinc-600 leading-relaxed">
               Jeg kan være svær at fange på telefonen, da jeg ofte er i samtale.
               Læg en besked, så kontakter jeg dig hurtigst muligt.
