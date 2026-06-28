@@ -8,6 +8,12 @@ import { defineConfig } from "@lovable.dev/vite-tanstack-config";
 
 export default defineConfig({
   nitro: false,
+  // Allow setting a base path at build time for hosting on GitHub Pages under a
+  // project repo (e.g. BASE_PATH=/karina-isted/). Defaults to "/" for the
+  // Lovable dev preview and custom-domain deploys.
+  vite: {
+    base: process.env.BASE_PATH || "/",
+  },
   tanstackStart: {
     // SSR entry compiled at dist/server/server.js for the preview/prerender server.
     server: { entry: "server" },
